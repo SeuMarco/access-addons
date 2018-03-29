@@ -1,19 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Show settings menu for non-admin',
-    'version': '1.0.1',
+    'name': 'Restricted administration rights',
+    'version': '1.2.0',
     'author': 'IT-Projects LLC, Ivan Yelizariev',
     "category": "Access",
     "support": "apps@it-projects.info",
     'website': 'https://twitter.com/yelizariev',
     "license": "LGPL-3",
-    'price': 10.00,
-    'currency': 'EUR',
-    'depends': [
-        'access_apps'
-    ],
+    'depends': ['ir_rule_protected'],
     'data': [
-        'security/access_settings_menu_security.xml',
+        'security/access_restricted_security.xml',
     ],
     'installable': True
 }

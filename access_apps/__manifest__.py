@@ -7,8 +7,6 @@
     "support": "apps@it-projects.info",
     'website': 'https://twitter.com/yelizariev',
     "license": "LGPL-3",
-    'price': 10.00,
-    'currency': 'EUR',
     'depends': [
         'web_settings_dashboard',
         'access_restricted'
