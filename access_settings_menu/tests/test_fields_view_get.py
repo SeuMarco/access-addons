@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from openerp.addons.access_restricted.tests.test_fields_view_get import TestFieldsViewGet as TestFieldsViewGetBase
+from odoo.addons.access_restricted.tests.test_fields_view_get import TestFieldsViewGet as TestFieldsViewGetBase
 
 
 class TestFieldsViewGet(TestFieldsViewGetBase):

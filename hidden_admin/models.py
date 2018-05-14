@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from openerp import api, models, SUPERUSER_ID
+from odoo import api, models, SUPERUSER_ID
 
 
 class Channel(models.Model):

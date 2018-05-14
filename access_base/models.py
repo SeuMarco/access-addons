@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-from openerp import fields, api, models
+from odoo import fields, api, models
 from lxml import etree
 from lxml.builder import E
-from openerp.tools.translate import _
-from openerp.addons.base.res.res_users import name_boolean_group, name_selection_groups
+from odoo.tools.translate import _
+from odoo.addons.base.res.res_users import name_boolean_group, name_selection_groups
 
 
 class GroupsView(models.Model):
@@ -44,7 +43,7 @@ class GroupsView(models.Model):
                 if kind == 'selection':
                     xml = xml or xml1
                     # application name with a selection field
-                    field_name = name_selection_groups(map(int, gs))
+                    field_name = name_selection_groups(list(map(int, gs)))
                     xml.append(E.field(name=field_name, **attrs))
                     xml.append(E.newline())
                 else:

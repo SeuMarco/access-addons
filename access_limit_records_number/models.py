@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 
-from openerp import models, fields, api, exceptions
-from openerp.tools.safe_eval import safe_eval
-from openerp.tools.translate import _
+from odoo import models, fields, api, exceptions
+from odoo.tools.safe_eval import safe_eval
+from odoo.tools.translate import _
 
 
 class BaseLimitRecordsNumber(models.Model):

@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from openerp.tests import common
+from odoo.tests import common
 
 
 @common.at_install(False)

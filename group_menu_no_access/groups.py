@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Business Applications
-#    Copyright (c) 2012 OpenERP S.A. <http://openerp.com>
+#    Copyright (c) 2012 OpenERP S.A. <http://odoo.com>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,7 +17,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp import models, fields, api, SUPERUSER_ID
+from odoo import models, fields, api, SUPERUSER_ID
 
 
 class ResGroups(models.Model):

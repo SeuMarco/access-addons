@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
-from openerp import http
-from openerp.http import request
-from openerp.addons.web_settings_dashboard.controllers.main import WebSettingsDashboard
-from openerp import SUPERUSER_ID
+from odoo import http
+from odoo.http import request
+from odoo.addons.web_settings_dashboard.controllers.main import WebSettingsDashboard
+from odoo import SUPERUSER_ID
 
 
 class WebSettingsDashboardCustom(WebSettingsDashboard):

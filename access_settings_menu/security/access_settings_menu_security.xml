@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
 
 <!-- Show Settings Menu -->
@@ -16,4 +16,4 @@
     <field name="implied_ids" eval="[(4, ref('access_settings_menu.group_show_settings_menu'))]"/>
 </record>
     </data>
-</openerp>
+</odoo>
